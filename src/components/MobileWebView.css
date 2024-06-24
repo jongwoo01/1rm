@@ -1,0 +1,25 @@
+.mobile-web-view{
+    
+    display: flex;         /* Flexbox 레이아웃을 활성화 */
+    flex-direction: column; /* 자식 요소들을 수직 방향으로 정렬 */
+    align-items: center;    /* 수직 방향으로 중앙 정렬 (가로 중앙) */
+    justify-content: center; /* 수평 방향으로 중앙 정렬 (세로 중앙) */
+    background-color:black;
+    margin: 0 auto; /* 수평 중앙 정렬 */
+    
+
+    width: 100vw;
+    min-width: 320px;
+    max-width: 430px;
+
+    height: 100vh;
+    min-height: 568px;
+    max-height: 932px; /* 아이폰 SE ~ 아이폰 14 프로 맥스까지의 사이즈이다*/
+
+    
+    
+}
+
+
+
+
